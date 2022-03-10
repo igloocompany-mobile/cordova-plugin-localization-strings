@@ -12,6 +12,6 @@
 
   <preference name="TRANSLATION_PATH" default="translations/app/" />
 
-  <hook src="scripts/create_strings.js" type="after_prepare" />
+  <hook src="scripts/create_strings.js" type="before_build" />
 
 </plugin>
